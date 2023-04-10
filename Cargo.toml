@@ -1,0 +1,22 @@
+[package]
+name = "fungal_fury"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+resolver = "2" 
+
+# Enable a small amount of optimization in debug mode
+[profile.dev]
+opt-level = 1
+
+# Enable high optimizations for dependencies (incl. Bevy), but not for our code:
+[profile.dev.package."*"]
+opt-level = 3
+
+[dependencies]
+rand = "0.8.5"
+bevy = "0.10.1"
+bevy_egui = "0.20.2"
+bevy-inspector-egui = "0.18.3"
+bevy_asset_loader = "0.16.0"
