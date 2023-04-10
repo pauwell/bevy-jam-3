@@ -1,6 +1,7 @@
 # Fungal Fury
 
 My entry for **Bevy Jam #3**. 
+Link to itch.io: https://pauwel.itch.io/fungal-fury-bevy-jam-3
 
 ---
 
